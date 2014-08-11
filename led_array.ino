@@ -25,6 +25,7 @@ void loop() {
 
 
 // this function lights up one LED and then turns it off very quickly
+// the cycle is repeated 10 times.
 void traverse(int iterations){
   for (int it = iterations; it > 0; it--) {
     for (int i = 0; i < 12; i++) {
